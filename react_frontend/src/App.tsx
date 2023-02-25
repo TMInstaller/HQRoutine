@@ -1,14 +1,10 @@
-import React from 'react'
-import './App.css'
-
 // import pages
-import Test from './__tests__/pages/Test'
-
+import Approuter from './AppRouter'
 // format App function to be as the typescript standard
 const App: React.FC = () => {
   return (
     <div className='App'>
-      <Test />
+      <Approuter />
     </div>
   )
 }
